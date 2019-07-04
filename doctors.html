@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Colorlib Medi+</title>
+    <title>GOHEMA - Grupo Cooperativo</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -16,73 +16,90 @@
     <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* Set the size of the div element that contains the map */
+        #map {
+          height: 400px;  /* The height is 400 pixels */
+          width: 100%;  /* The width is the width of the web page */
+         }
+      </style>
+   
   </head>
   <body>
     
-    <header role="banner">
-      <div class="top-bar">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-6 col-5">
-              <ul class="social list-unstyled">
-                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-              </ul>
-            </div>
-            <div class="col-md-6 col-sm-6 col-7 text-right">
-              <p class="mb-0">
-                <a href="#" class="cta-btn" data-toggle="modal" data-target="#modalAppointment">Make an Appointment</a></p>
+      <header role="banner">
+          <div class="top-bar">
+            <div class="container">
+              <div class="row">
+                  <!-- <img src="img/Logotipo_Color@2x.png" alt="" height="50" width="60"> -->
+                <div class="col-md-6 col-sm-6 col-5">
+                  <ul class="social list-unstyled">
+                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/GoHemaMX"><span class="fa fa-twitter"></span></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gohemamx/"><span class="fa fa-instagram"></span></a></li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-7 text-right">
+                  <p class="mb-0">
+                    <a href="#" class="cta-btn" data-toggle="modal" data-target="#modalAppointment">Contactar un Médico</a></p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">Medi<span>+</span>  </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarsExample05">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="#">Institute</a>
-                  <a class="dropdown-item" href="#">Departments</a>
-                  <a class="dropdown-item" href="services.html">Services</a>
-                </div>
-
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="doctors.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown05">
-                  <a class="dropdown-item active" href="doctors.html">Find Doctors</a>
-                  <a class="dropdown-item" href="#">Practitioner</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="news.html">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="index.html"><img src="img/Logotipo_Color@2x.png" alt="" height="65" ></a>
+              &emsp;&emsp;&emsp;
+              <a class="navbar-brand" href="index.html">   Grupo <span>cooperativo</span>  </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarsExample05">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                      <a class="dropdown-item" href="#">Institute</a>
+                      <a class="dropdown-item" href="#">Departments</a>
+                      <a class="dropdown-item" href="services.html">Services</a>
+                    </div>
+    
+                  </li> -->
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html#aboutus">Sobre Nosotros</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#news">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#socialmedia">Redes Sociales</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="doctors.html" id="dropdown05">Medicos</a>
+                    <!-- <div class="dropdown-menu" aria-labelledby="dropdown05">
+                      <a class="dropdown-item" href="doctors.html">Buscar Especialista</a>
+                      <a class="dropdown-item" href="#">Consejo directivo</a>
+                    </div> -->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
     <!-- END header -->
 
     
@@ -92,8 +109,11 @@
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
-              <h1>Doctors</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
+              <h1>Directorio de Médicos</h1>
+              <p>Contacte a alguno de nuestros Médicos y obtenga más información o agende una cita, tenemos presencia 
+                en Baja California, Chihuahua, Ciudad de México, Edo. de México, Jalisco, Michoacán, Nuevo León, Puebla,
+                 Querétaro, S. Luis Potosí, Sinaloa, Sonora, Yucatán.
+              </p>
             </div>
           </div>
         </div>
@@ -109,11 +129,11 @@
           <div class="col-md-6">
 
             <form action="#">
-              <label for="search-doctor">Search Doctors</label>
+              <label for="search-doctor">Buscar Médicos</label>
               <div class="input-group input-group-lg">
-                <input type="text" id="search-doctor" class="form-control" placeholder="Search for..." aria-label="Search for...">
+                <input type="text" id="search-doctor" class="form-control" placeholder="Filtrar por Estado..." aria-label="Filtrar por Estado...">
                 <span class="input-group-btn">
-                  <button class="btn btn-primary" type="button">Go!</button>
+                  <button class="btn btn-link" type="button"><i class="material-icons">search</i></button>
                 </span>
               </div>
             </form>
@@ -124,35 +144,37 @@
     <section class="section bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 element-animate">
+          <div class="col-md-4 element-animate">
             <div class="media d-block media-custom text-center">
-              <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
+              <!-- <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid"> -->
               <div class="media-body">
-                <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p>
+                <h3 class="mt-0 text-black">Dr. Adrián Alejandro Ceballos López</h3>
+                <p>Estado: Yucatán</p>
+                <p><i class="material-icons">phone</i> 99 9925 0444</p>
+                <p><i class="material-icons">email</i> ceballosadrian@gmail.com</p>
+                <!-- <p>
                   <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
                   <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
                   <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                </p>
+                </p> -->
               </div>
             </div>
           </div>
-          <div class="col-md-3 element-animate">
+          <div class="col-md-4 element-animate">
             <div class="media d-block media-custom text-center">
-              <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
+              <!-- <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid"> -->
               <div class="media-body">
                 <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p>
+                <!-- <p>
                   <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
                   <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
                   <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-                </p>
+                </p> -->
               </div>
             </div>
           </div>
-          <div class="col-md-3 element-animate">
+          <!-- <div class="col-md-3 element-animate">
             <div class="media d-block media-custom text-center">
               <img src="img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
               <div class="media-body">
@@ -179,13 +201,13 @@
                 </p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <div class="row mb-5">
-          <div class="col-md-3 element-animate">
+          <div class="col-md-4 element-animate">
             <div class="media d-block media-custom text-center">
-              <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid">
+              <!-- <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid"> -->
               <div class="media-body">
                 <h3 class="mt-0 text-black">Dr. Carl Smith</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -197,9 +219,9 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 element-animate">
+          <div class="col-md-4 element-animate">
             <div class="media d-block media-custom text-center">
-              <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid">
+              <!-- <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid"> -->
               <div class="media-body">
                 <h3 class="mt-0 text-black">Dr. Janice Doe</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -211,7 +233,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 element-animate">
+          <!-- <div class="col-md-3 element-animate">
             <div class="media d-block media-custom text-center">
               <img src="img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid">
               <div class="media-body">
@@ -224,8 +246,8 @@
                 </p>
               </div>
             </div>
-          </div>
-          <div class="col-md-3 element-animate">
+          </div> -->
+          <!-- <div class="col-md-3 element-animate">
             <div class="media d-block media-custom text-center">
               <img src="img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
               <div class="media-body">
@@ -238,7 +260,23 @@
                 </p>
               </div>
             </div>
-          </div>
+          </div> -->
+          <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiseq5XuOaf7FqFqsY1r95be8DF5RT088&callback=initMap">
+    </script>
         </div>
 
         <div class="row element-animate">
