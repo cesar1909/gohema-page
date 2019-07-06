@@ -118,3 +118,16 @@ function paginationMove(frame){
     }
 }
 
+$(document).ready(function() {
+    $("#home-slider").owlCarousel({
+        autoPlay: 2500,
+        //autoPlay: true, <-- if you want to set default slide time (5000)
+    
+        slideSpeed: 300,
+        paginationSpeed: 500,
+        singleItem: true,
+        navigation: true,
+        scrollPerPage: true
+    });
+});
+
