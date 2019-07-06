@@ -43,7 +43,7 @@ function findDoctor(city){
     if(city === 'cdmx'){
         clearDoctorsList()
         var newDoctorsList = document.getElementById("idContainer");
-        newDoctorsList.innerHTML = ""
+        newDoctorsList.innerHTML = "";
     }
     else if(city === 'chiapas'){
         clearDoctorsList()
@@ -100,67 +100,5 @@ function findDoctor(city){
 
 function clearDoctorsList(){
     var docotrsList = document.getElementById("idContainer")
-    docotrsList.innerHTML = `<div class="row">
-    <div class="col-md-4 element-animate">
-      <div class="media d-block media-custom text-center">
-        <!-- <img src="img/doctor_1.jpg" alt="Image Placeholder" class="img-fluid"> -->
-        <div class="media-body">
-          <h3 class="mt-0 text-black">Dr. Adrián Alejandro Ceballos López</h3>
-          <p><i class="material-icons">location_on</i>  Yucatán<a id="myLink1" href="#" onclick="MyFunction(1);return false;"> ver</a></p>
-          <p><i class="material-icons">phone</i>  99 9925 0444</p>
-          <p><i class="material-icons">email</i>  ceballosadrian@gmail.com</p>
-          <!-- <p>
-            <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-            <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-            <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-          </p> -->
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 element-animate">
-      <div class="media d-block media-custom text-center">
-        <!-- <img src="img/doctor_2.jpg" alt="Image Placeholder" class="img-fluid"> -->
-        <div class="media-body">
-          <h3 class="mt-0 text-black">Dr. Alberto Villalobos Prieto</h3>
-          <p><i class="material-icons">location_on</i>  Ciudad de México<a id="myLink1" href="#" onclick="MyFunction(2);return false;"> ver</a></p>
-          <p><i class="material-icons">email</i>  avillalobosabc@yahoo.com.mx</p>
-          <!-- <p>
-            <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-            <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-            <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-          </p> -->
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 element-animate">
-      <div class="media d-block media-custom text-center">
-        <!-- <img src="img/doctor_3.jpg" alt="Image Placeholder" class="img-fluid"> -->
-        <div class="media-body">
-          <h3 class="mt-0 text-black">Dra. Alejandra Zarate Osorno</h3>
-          <p><i class="material-icons">location_on</i>  Ciudad de México<a id="myLink1" href="#" onclick="MyFunction(3);return false;"> ver</a></p>
-          <p><i class="material-icons">phone</i>  55 5255 9600</p>
-          <p><i class="material-icons">email</i>  zaratedr@hotmail.com</p>                
-          <!-- <p>
-            <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-            <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-            <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-          </p> -->
-        </div>
-      </div>
-    </div>
-    <!-- <div class="col-md-3 element-animate">
-      <div class="media d-block media-custom text-center">
-        <img src="img/doctor_4.jpg" alt="Image Placeholder" class="img-fluid">
-        <div class="media-body">
-          <h3 class="mt-0 text-black">Dr. Jessica Doe</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>
-            <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-            <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-            <a href="#" class="p-2"><span class="fa fa-linkedin"></span></a>
-          </p>
-        </div>
-      </div>
-    </div> -->
-  </div>`
+    docotrsList.innerHTML = "";
 }
