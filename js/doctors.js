@@ -1,5 +1,5 @@
 function MyFunction(estado){
-    alert(estado);
+    // alert(estado);
     if(estado === 1){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
