@@ -102,3 +102,19 @@ function clearDoctorsList(){
     var docotrsList = document.getElementById("idContainer")
     docotrsList.innerHTML = "";
 }
+
+
+
+// function listenersPagination(){
+//     document.getElementById("page1").addEventListener("click", function(){paginationMove(1);})
+//     document.getElementById("page2").addEventListener("click", function(){paginationMove(2);})
+// }
+
+function paginationMove(frame){
+    if(frame === 2){
+        document.getElementById("frame1").style.visibility = "hidden";
+        document.getElementById("frame2").style.visibility = "visible";
+
+    }
+}
+

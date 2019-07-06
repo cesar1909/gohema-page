@@ -166,6 +166,7 @@
     </section>
     <section class="section bg-light">
       <div id="idContainer" class="container">
+        <div id="frame1">
         <div class="row">
           <div class="col-md-4 element-animate">
             <div class="media d-block media-custom text-center">
@@ -226,19 +227,69 @@
               </div>
             </div>
           </div>
+
         </div>
+      </div>
+
+
+
+
+
+        
+
+
+
+        <div class="row" id="frame2" >
+          <div class="col-md-4 element-animate">
+            <div class="media d-block media-custom text-center">
+              <div class="media-body">
+                <h3 class="mt-0 text-black">Dr. Adrián Alejandro Ceballos López</h3>
+                <p><i class="material-icons">location_on</i>  Yucatán<a id="myLink1" href="#" onclick="MyFunction(1);return false;"> ver</a></p>
+                <p><i class="material-icons">phone</i>  99 9925 0444</p>
+                <p><i class="material-icons">email</i>  ceballosadrian@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 element-animate">
+            <div class="media d-block media-custom text-center">
+              <div class="media-body">
+                <h3 class="mt-0 text-black">Dr. Alberto Villalobos Prieto</h3>
+                <p><i class="material-icons">location_on</i>  Ciudad de México<a id="myLink1" href="#" onclick="MyFunction(2);return false;"> ver</a></p>
+                <p><i class="material-icons">email</i>  avillalobosabc@yahoo.com.mx</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 element-animate">
+            <div class="media d-block media-custom text-center">
+              <div class="media-body">
+                <h3 class="mt-0 text-black">Dra. Alejandra Zarate Osorno</h3>
+                <p><i class="material-icons">location_on</i>  Ciudad de México<a id="myLink1" href="#" onclick="MyFunction(3);return false;"> ver</a></p>
+                <p><i class="material-icons">phone</i>  55 5255 9600</p>
+                <p><i class="material-icons">email</i>  zaratedr@hotmail.com</p>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
 
         <div class="row element-animate">
           <div class="col-md-5">
             <nav aria-label="Page navigation example">
-              <ul class="pagination">
-                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              <ul id="pagination-demo" class="pagination">
+                <!-- <li class="page-item"><a id="page1" class="page-link" href="#">Previous</a></li> -->
+                <li class="page-item active"><a id="page1" class="page-link" href="#" onclick="paginationMove(1);return false;" >1</a></li>
+                <li class="page-item"><a id="page2" class="page-link" href="#" onclick="paginationMove(2);return false;" >2</a></li>
+                <li class="page-item"><a id="page3" class="page-link" href="#">3</a></li>
+                <li class="page-item"><a id="page4" class="page-link" href="#">4</a></li>
+                <li class="page-item"><a id="page5" class="page-link" href="#">5</a></li>
+                <!-- <li class="page-item"><a class="page-link" href="#">Next</a></li> -->
               </ul>
             </nav>
           </div>
