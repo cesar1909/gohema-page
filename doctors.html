@@ -46,25 +46,32 @@
             <div class="container">
               <div class="row">
                   <!-- <img src="img/Logotipo_Color@2x.png" alt="" height="50" width="60"> -->
-                <div class="col-md-6 col-sm-6 col-5">
+                <div class="col-md-6 col-sm-6 col-6">
                   <ul class="social list-unstyled">
-                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://web.facebook.com/gohemamx/"><span class="fa fa-facebook"></span></a></li>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/GoHemaMX"><span class="fa fa-twitter"></span></a></li>
                     <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gohemamx/"><span class="fa fa-instagram"></span></a></li>
                   </ul>
                 </div>
-                <div class="col-md-6 col-sm-6 col-7 text-right">
+                <div class="col-md-6 col-sm-6 col-lg-6 text-right">
                   <p class="mb-0">
-                    <a href="#" class="cta-btn" data-toggle="modal" data-target="#modalAppointment">Contactar un Médico</a></p>
+                    <a href="doctors.html" class="cta-btn" >Contactar un Médico</a>
+                    <a href="https://gohema.herokuapp.com" class="btn btn-primary btn-lg">Acceso a miembros</a>
+                  </p>
                 </div>
+                <!-- <div class="col-md-3 col-sm-3 col-3 text-right">
+                    <p class="mb-0">
+                    <a href="#" class="btn btn-primary btn-lg" style="float: right">Acceso a miembros</a>
+                    </p>
+                </div> -->
               </div>
             </div>
           </div>
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-              <a class="navbar-brand" href="index.html"><img src="img/Logotipo_Color@2x.png" alt="" height="65" ></a>
-              &emsp;&emsp;&emsp;
-              <a class="navbar-brand" href="index.html">   Grupo <span>cooperativo</span>  </a>
+              <a class="navbar-brand" href="index.html"><img src="img/logo2.png" alt="" height="65" ></a>
+              &emsp;&emsp;
+              <a class="navbar-brand" href="index.html">Grupo cooperativo <span>de Hemopatías Malignas</span>  </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -72,7 +79,7 @@
               <div class="collapse navbar-collapse" id="navbarsExample05">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio</a>
+                    <a class="nav-link active" href="index.html">Inicio</a>
                   </li>
                   <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
@@ -84,16 +91,16 @@
     
                   </li> -->
                   <li class="nav-item">
-                      <a class="nav-link" href="index.html#aboutus">Sobre Nosotros</a>
+                      <a class="nav-link" href="index.html#aboutus">Nosotros</a>
                     </li>
                   <li class="nav-item">
                     <a class="nav-link" href="index.html#news">Noticias</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html#socialmedia">Redes Sociales</a>
+                    <a class="nav-link" href="index.html#socialmedia">Redes</a>
                   </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="doctors.html" id="dropdown05">Medicos</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="doctors.html" id="dropdown05">Médicos</a>
                     <!-- <div class="dropdown-menu" aria-labelledby="dropdown05">
                       <a class="dropdown-item" href="doctors.html">Buscar Especialista</a>
                       <a class="dropdown-item" href="#">Consejo directivo</a>
@@ -111,15 +118,14 @@
 
     
     <section class="home-slider inner-page owl-carousel">
-      <div class="slider-item" style="background-image: url('img/slider-2.jpg');">
+      <div class="slider-item" style="background-image: url('img/photo3.jpg');">
         
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
               <h1>Directorio de Médicos</h1>
               <p>Contacte a alguno de nuestros Médicos y obtenga más información o agende una cita, tenemos presencia 
-                en Baja California, Chihuahua, Ciudad de México, Edo. de México, Jalisco, Michoacán, Nuevo León, Puebla,
-                 Querétaro, S. Luis Potosí, Sinaloa, Sonora, Yucatán.
+                en toda la república Mexicana
               </p>
             </div>
           </div>
@@ -239,7 +245,7 @@
 
 
 
-        <div class="row" id="frame2" >
+        <!-- <div class="row" id="frame2" >
           <div class="col-md-4 element-animate">
             <div class="media d-block media-custom text-center">
               <div class="media-body">
@@ -269,7 +275,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
 
 
@@ -294,77 +300,78 @@
             </nav>
           </div>
         </div>
+        <div id="newMapDiv">
+            <div id="mapDiv" class="mapouter"><div  class="gmap_canvas"><iframe id="mapFrame" width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=angeles%20lomas&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>
+        </div>
       </div>
-      <div id="newMapDiv">
-          <div id="mapDiv" class="mapouter"><div  class="gmap_canvas"><iframe id="mapFrame" width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=angeles%20lomas&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>
-      </div>
+      
     </section>
 
-    <a href="#" class="cta-link element-animate" data-toggle="modal" data-target="#modalAppointment">
+    <!-- <a href="#" class="cta-link element-animate" data-toggle="modal" data-target="#modalAppointment">
       <span class="sub-heading">Ready to Visit?</span>
       <span class="heading">Make an Appointment</span>
-    </a>
+    </a> -->
     <!-- END cta-link -->
 
     <footer class="site-footer" role="contentinfo">
-      <div class="container">
-        <div class="row mb-5 element-animate">
-          <div class="col-md-3 mb-5">
-            <h3>Services</h3>
-            <ul class="footer-link list-unstyled">
-              <li><a href="#">Find a doctor</a></li>
-              <li><a href="#">Urgent Care</a></li>
-              <li><a href="#">Emergency Care</a></li>
-              <li><a href="#">Procedures &amp; Treatments</a></li>
-              <li><a href="#">Online Services</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Latest News</h3>
-            <ul class="footer-link list-unstyled">
-              <li><a href="#">News &amp; Press Releases</a></li>
-              <li><a href="#">Health Care Professional News</a></li>
-              <li><a href="#">Events &amp; Conferences</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>About</h3>
-            <ul class="footer-link list-unstyled">
-              <li><a href="#">About The Hospital</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Accreditations &amp; Awards</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Feedback</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 mb-5">
-            <h3>Location &amp; Contact</h3>
-            <p class="mb-5">134 Street Name, City Name Here, United States</p>
-
-            <h4 class="text-uppercase mb-3 h6 text-white">Email</h5>
-            <p class="mb-5"><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
-            
-            <h4 class="text-uppercase mb-3 h6 text-white">Phone</h5>
-            <p>+1 24 435 3533</p>
-
+        <div class="container">
+          <!-- <div class="row mb-5 element-animate">
+            <div class="col-md-3 mb-5">
+              <h3>Services</h3>
+              <ul class="footer-link list-unstyled">
+                <li><a href="#">Find a doctor</a></li>
+                <li><a href="#">Urgent Care</a></li>
+                <li><a href="#">Emergency Care</a></li>
+                <li><a href="#">Procedures &amp; Treatments</a></li>
+                <li><a href="#">Online Services</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-5">
+              <h3>Latest News</h3>
+              <ul class="footer-link list-unstyled">
+                <li><a href="#">News &amp; Press Releases</a></li>
+                <li><a href="#">Health Care Professional News</a></li>
+                <li><a href="#">Events &amp; Conferences</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-5">
+              <h3>About</h3>
+              <ul class="footer-link list-unstyled">
+                <li><a href="#">About The Hospital</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Accreditations &amp; Awards</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Feedback</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 mb-5">
+              <h3>Location &amp; Contact</h3>
+              <p class="mb-5">134 Street Name, City Name Here, United States</p>
+  
+              <h4 class="text-uppercase mb-3 h6 text-white">Email</h5>
+              <p class="mb-5"><a href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
+              
+              <h4 class="text-uppercase mb-3 h6 text-white">Phone</h5>
+              <p>+1 24 435 3533</p>
+  
+            </div>
+          </div> -->
+  
+          <div class="row pt-md-3 element-animate">
+            <div class="col-md-12">
+              <hr class="border-t">
+            </div>
+            <div class="col-md-6 col-sm-12 copyright">
+              <p>&copy; 2019 Mendoza Software Designed &amp; Developed by <a href="https://cesarmendoza.com/">César Mendoza</a></p>
+            </div>
+            <div class="col-md-6 col-sm-12 text-md-right text-sm-left">
+              <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
+              <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
+              <a href="#" class="p-2"><span class="fa fa-instagram"></span></a>
+            </div>
           </div>
         </div>
-
-        <div class="row pt-md-3 element-animate">
-          <div class="col-md-12">
-            <hr class="border-t">
-          </div>
-          <div class="col-md-6 col-sm-12 copyright">
-            <p>&copy; 2018 Colorlib Medi+. Designed &amp; Developed by <a href="https://colorlib.com/">Colorlib</a></p>
-          </div>
-          <div class="col-md-6 col-sm-12 text-md-right text-sm-left">
-            <a href="#" class="p-2"><span class="fa fa-facebook"></span></a>
-            <a href="#" class="p-2"><span class="fa fa-twitter"></span></a>
-            <a href="#" class="p-2"><span class="fa fa-instagram"></span></a>
-          </div>
-        </div>
-      </div>
-    </footer>
+      </footer>
     <!-- END footer -->
 
 

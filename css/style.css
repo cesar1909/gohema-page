@@ -504,7 +504,7 @@ header .navbar .dropdown-menu a {
 }
 
 .cta-link {
-  background: #007bff;
+  background: #08174a;
   padding: 3.5em 0 3em 0;
   display: block;
   text-align: center;
@@ -526,7 +526,7 @@ header .navbar .dropdown-menu a {
 
 .cta-link .heading {
   font-size: 50px;
-  color: #001933;
+  color: #ffffff;
 }
 
 @media (max-width: 991px) {
@@ -536,7 +536,7 @@ header .navbar .dropdown-menu a {
 }
 
 .cta-link:hover {
-  background: #006fe6;
+  background: #ba2a44;
 }
 
 .cover_1 {
