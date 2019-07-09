@@ -28,13 +28,9 @@ var doctor27;
 var doctor28;
 var doctor29;
 var doctor30;
-var chihuahua1;
-var chihuahua2;
-var chihuahua3;
-var chihuahua4;
         
 
-        var doctor1c;
+        var doctor1c = null;
         var doctor2c;
         var doctor3c;
         var doctor4c;
@@ -63,24 +59,10 @@ var chihuahua4;
         var doctor28c;
         var doctor29c;
         var doctor30c;
-        var chihuahua1c;
-        var chihuahua2c;
-        var chihuahua3c;
-        var chihuahua4c;
         
 
         var count = 0;
-        var count2 = 0;
-        var count3 = 0;
-        var count4 = 0;
-        var count5 = 0;
-        var count6 = 0;
-        var count7 = 0;
-        var count8 = 0;
-        var count9 = 0;
-        var count10 = 0;
-        var count11 = 0;
-        var count12 = 0;
+
 
 
 
@@ -400,10 +382,6 @@ function findDoctor(city){
          doctor28 = document.getElementById("item52");
          doctor29 = document.getElementById("item53");
          doctor30 = document.getElementById("item54");
-         chihuahua1 = document.getElementById("item10");
-         chihuahua2 = document.getElementById("item27");
-         chihuahua3 = document.getElementById("item32");
-         chihuahua4 = document.getElementById("item46");
 
          doctor1c = doctor1.cloneNode(true);
          doctor2c = doctor2.cloneNode(true);
@@ -435,53 +413,46 @@ function findDoctor(city){
          doctor28c = doctor28.cloneNode(true);
          doctor29c = doctor29.cloneNode(true);
          doctor30c = doctor30.cloneNode(true);
-         chihuahua1c = chihuahua1.cloneNode(true);
-         chihuahua2c = chihuahua2.cloneNode(true);
-         chihuahua3c = chihuahua3.cloneNode(true);
-         chihuahua4c = chihuahua4.cloneNode(true);
 
-        doctor1c.id = "1";
-        doctor2c.id = "2";
-        doctor3c.id = "3";
-        doctor4c.id = "4";
-        doctor5c.id = "5";
-        doctor6c.id = "6";
-        doctor7c.id = "7";
-        doctor8c.id = "8";
-        doctor9c.id = "9";
-        doctor10c.id = "10";
-        doctor11c.id = "11";
-        doctor12c.id = "12";
-        doctor13c.id = "13";
-        doctor14c.id = "14";
-        doctor15c.id = "15";
-        doctor16c.id = "16";
-        doctor17c.id = "17";
-        doctor18c.id = "18";
-        doctor19c.id = "19";
-        doctor20c.id = "20";
-        doctor21c.id = "21";
-        doctor22c.id = "22";
-        doctor23c.id = "23";
-        doctor24c.id = "24";
-        doctor25c.id = "25";
-        doctor26c.id = "26";
-        doctor27c.id = "27";
-        doctor28c.id = "28";
-        doctor29c.id = "29";
-        doctor30c.id = "30";
-        chihuahua1c.id = "31";
-        chihuahua2c.id = "32";
-        chihuahua3c.id = "33";
-        chihuahua4c.id = "34";
-        
-
-
+         doctor1c.id = "1";
+         doctor2c.id = "2";
+         doctor3c.id = "3";
+         doctor4c.id = "4";
+         doctor5c.id = "5";
+         doctor6c.id = "6";
+         doctor7c.id = "7";
+         doctor8c.id = "8";
+         doctor9c.id = "9";
+         doctor10c.id = "10";
+         doctor11c.id = "11";
+         doctor12c.id = "12";
+         doctor13c.id = "13";
+         doctor14c.id = "14";
+         doctor15c.id = "15";
+         doctor16c.id = "16";
+         doctor17c.id = "17";
+         doctor18c.id = "18";
+         doctor19c.id = "19";
+         doctor20c.id = "20";
+         doctor21c.id = "21";
+         doctor22c.id = "22";
+         doctor23c.id = "23";
+         doctor24c.id = "24";
+         doctor25c.id = "25";
+         doctor26c.id = "26";
+         doctor27c.id = "27";
+         doctor28c.id = "28";
+         doctor29c.id = "29";
+         doctor30c.id = "30";
 
 
     // alert(city)
     paginationMove(1);
     if(city === 'cdmx'){
+        document.getElementById("btn2").style.display = "block";
+        document.getElementById("btn3").style.display = "block";
+        document.getElementById("btn4").style.display = "block";
+        document.getElementById("btn5").style.display = "block";
         document.getElementById("btn6").style.display = "none";
         document.getElementById("btn7").style.display = "none";
         document.getElementById("btn8").style.display = "none";
@@ -592,68 +563,62 @@ function findDoctor(city){
 
     }
     else if(city === 'chihuahua'){
-        alert(city)
-        document.getElementById("btn2").style.display = "none";
-        document.getElementById("btn3").style.display = "none";
-        document.getElementById("btn4").style.display = "none";
-        document.getElementById("btn5").style.display = "none";
-        document.getElementById("btn6").style.display = "none";
-        document.getElementById("btn7").style.display = "none";
-        document.getElementById("btn8").style.display = "none";
-        document.getElementById("btn9").style.display = "none";
-
-        hideAllDoctors();
-
-        chihuahua1c.style.display = "block";
-        chihuahua2c.style.display = "block";
-        chihuahua3c.style.display = "block";
-        chihuahua4c.style.display = "block";
-
-
-        if(count2 === 0){
-            document.getElementById("row1").append(chihuahua1c);
-            document.getElementById("row1").append(chihuahua2c);
-            document.getElementById("row1").append(chihuahua3c);
-            document.getElementById("row2").append(chihuahua4c);
-            count++;
-        }
-        else{
-
-        }
-
-
+        clearFrames();
+        ocultarUltimosBotonesDesplazamiento();
+        document.getElementById("frameA").style.display = "block";
     }
     else if(city === 'bajacalifornia'){
-        
+        clearFrames();
+        ocultarUltimosBotonesDesplazamiento();
+        document.getElementById("frameB").style.display = "block";
     }
     else if(city === 'jalisco'){
-        
+        clearFrames();
+        ocultarUltimosBotonesDesplazamiento();
+        document.getElementById("frameC").style.display = "block";
     }
     else if(city === 'michoacan'){
-        
+        clearFrames();
+        ocultarUltimosBotonesDesplazamiento();
+        document.getElementById("frameD").style.display = "block";
     }
     else if(city === 'nuevoleon'){
-        
+        clearFrames();
+        ocultarUltimosBotonesDesplazamiento();
+        document.getElementById("frameE").style.display = "block";
     }
     else if(city === 'puebla'){
-        
+        clearFrames();
+        ocultarUltimosBotonesDesplazamiento();
+        document.getElementById("frameF").style.display = "block";
     }
     else if(city === 'queretaro'){
-        
+        clearFrames();
+        ocultarUltimosBotonesDesplazamiento();
+        document.getElementById("frameH").style.display = "block";
     }
     else if(city === 'sanluis'){
-        
+        clearFrames();
+        ocultarUltimosBotonesDesplazamiento();
+        document.getElementById("frameI").style.display = "block";
     }
     else if(city  === 'sinaloa'){
-        
+        clearFrames();
+        ocultarUltimosBotonesDesplazamiento();
+        document.getElementById("frameJ").style.display = "block";
     }
     else if(city === 'sonora'){
-        
+        clearFrames();
+        ocultarUltimosBotonesDesplazamiento();
+        document.getElementById("frameK").style.display = "block";
     }
     else if(city === 'yucatan'){
-        
+        clearFrames();
+        ocultarUltimosBotonesDesplazamiento();
+        document.getElementById("frameL").style.display = "block";
     }
     else if(city === 'all'){
+        findDoctor('cdmx');
         clearFrames();
         ocultarResultados();
         showAllDoctors();
@@ -793,6 +758,18 @@ function clearFrames(){
     document.getElementById("frame7").style.display = "none";
     document.getElementById("frame8").style.display = "none";
     document.getElementById("frame9").style.display = "none";
+    document.getElementById("frameA").style.display = "none";
+    document.getElementById("frameB").style.display = "none";
+    document.getElementById("frameC").style.display = "none";
+    document.getElementById("frameD").style.display = "none";
+    document.getElementById("frameE").style.display = "none";
+    document.getElementById("frameF").style.display = "none";
+    document.getElementById("frameH").style.display = "none";
+    document.getElementById("frameI").style.display = "none";
+    document.getElementById("frameJ").style.display = "none";
+    document.getElementById("frameK").style.display = "none";
+    document.getElementById("frameL").style.display = "none";
+    
     
 }
 
@@ -924,8 +901,11 @@ function hideAllDoctors(){
 }
 
 function ocultarResultados(){
-    if(doctor1c =! null){
+    if(doctor1c === null){
+        alert("Elemento nulo")
 
+    }
+    else if (dcotor1c =! null){
         document.getElementById("1").style.display = "none";
         document.getElementById("2").style.display = "none";
         document.getElementById("3").style.display = "none";
@@ -956,40 +936,18 @@ function ocultarResultados(){
         document.getElementById("28").style.display = "none";
         document.getElementById("29").style.display = "none";
         document.getElementById("30").style.display = "none";
-
-        // doctor1c.style.display = "none";
-        // doctor2c.style.display = "none";
-        // doctor3c.style.display = "none";
-        // doctor4c.style.display = "none";
-        // doctor5c.style.display = "none";
-        // doctor6c.style.display = "none";
-        // doctor7c.style.display = "none";
-        // doctor8c.style.display = "none";
-        // doctor9c.style.display = "none";
-        // doctor10c.style.display = "none";
-        // doctor11c.style.display = "none";
-        // doctor12c.style.display = "none";
-        // doctor13c.style.display = "none";
-        // doctor14c.style.display = "none";
-        // doctor15c.style.display = "none";
-        // doctor16c.style.display = "none";
-        // doctor17c.style.display = "none";
-        // doctor18c.style.display = "none";
-        // doctor19c.style.display = "none";
-        // doctor20c.style.display = "none";
-        // doctor21c.style.display = "none";
-        // doctor22c.style.display = "none";
-        // doctor23c.style.display = "none";
-        // doctor24c.style.display = "none";
-        // doctor25c.style.display = "none";
-        // doctor26c.style.display = "none";
-        // doctor27c.style.display = "none";
-        // doctor28c.style.display = "none";
-        // doctor29c.style.display = "none";
-        // doctor30c.style.display = "none";
-    }
-    else{
-        alert("Elemento nulo")
     }
         
+}
+
+function ocultarUltimosBotonesDesplazamiento(){
+        document.getElementById("btn2").style.display = "none";
+        document.getElementById("btn3").style.display = "none";
+        document.getElementById("btn4").style.display = "none";
+        document.getElementById("btn5").style.display = "none";
+        document.getElementById("btn6").style.display = "none";
+        document.getElementById("btn7").style.display = "none";
+        document.getElementById("btn8").style.display = "none";
+        document.getElementById("btn9").style.display = "none";
+
 }
