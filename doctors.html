@@ -158,7 +158,7 @@
               <div class="input-group input-group-lg">
                 <!-- <input type="text" id="search-doctor" class="form-control" placeholder="Buscar por Estado..." aria-label="Buscar por Estado..."> -->
                 <select name="citySelect" id="select1" onchange="findDoctor(this.value);">
-                  <option selected disabled hidden value="0">Seleccione un estado de la República Mexicana...</option>
+                  <option selected disabled hidden value="0">Seleccione un estado de la República...</option>
                   <option value="all">Ver Todos</option>
                   <option value="cdmx">Ciudad de México</option>
                   <!-- <option value="chiapas">Chiapas</option> -->
@@ -1169,7 +1169,7 @@
 
 
 
-        <div class="row">
+        <div id = "paginationSection"class="row text-center justify-content-center">
           <div class="col-md-5">
             <nav aria-label="Page navigation example">
               <ul id="pagination-demo" class="pagination">
@@ -1188,6 +1188,7 @@
             </nav>
           </div>
         </div>
+        <br>
         <div id="newMapDiv" class="map-responsive">
             <div id="mapDiv" class="mapouter"><div  class="gmap_canvas"><iframe id="mapFrame" width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=angeles%20lomas&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>
         </div>

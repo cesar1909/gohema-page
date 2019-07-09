@@ -67,7 +67,7 @@ var doctor30;
 
 
 function MyFunction(estado){
-    var mapSection = document.getElementById("newMapDiv");
+    var mapSection = document.getElementById("paginationSection");
     mapSection.scrollIntoView();
     // alert(estado);
     if(estado === 1){
