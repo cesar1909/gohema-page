@@ -283,58 +283,48 @@ function celarDivMap(){
 function findDoctor(city){
     // var search = document.getElementById('search-doctor').value;
     alert(city)
+    clearFrames();
+    noFill();
+    // paginationMove(1);
+
     if(city === 'cdmx'){
-        clearDoctorsList()
-        var newDoctorsList = document.getElementById("idContainer");
-        newDoctorsList.innerHTML = "";
+        
     }
     else if(city === 'chiapas'){
-        clearDoctorsList()
 
     }
     else if(city === 'chihuahua'){
-        clearDoctorsList()
 
     }
     else if(city === 'bajacalifornia'){
-        clearDoctorsList()
-
+        
     }
     else if(city === 'jalisco'){
-        clearDoctorsList()
-
+        
     }
     else if(city === 'michoacan'){
-        clearDoctorsList()
-
+        
     }
     else if(city === 'nuevoleon'){
-        clearDoctorsList()
-
+        
     }
     else if(city === 'puebla'){
-        clearDoctorsList()
-
+        
     }
     else if(city === 'queretaro'){
-        clearDoctorsList()
-
+        
     }
     else if(city === 'sanluis'){
-        clearDoctorsList()
-
+        
     }
     else if(city  === 'sinaloa'){
-        clearDoctorsList()
-
+        
     }
     else if(city === 'sonora'){
-        clearDoctorsList()
-
+        
     }
     else if(city === 'yucatan'){
-        clearDoctorsList()
-
+        
     }
     else{
 
@@ -352,14 +342,6 @@ function clearDoctorsList(){
 //     document.getElementById("page1").addEventListener("click", function(){paginationMove(1);})
 //     document.getElementById("page2").addEventListener("click", function(){paginationMove(2);})
 // }
-
-function paginationMove(frame){
-    if(frame === 2){
-        document.getElementById("frame1").style.visibility = "hidden";
-        document.getElementById("frame2").style.visibility = "visible";
-
-    }
-}
 
 $(document).ready(function() {
     $("#home-slider").owlCarousel({
@@ -381,3 +363,82 @@ $(document).ready(function() {
     // }
 });
 
+//Controla el movimiento entre las pestañas de los doctores
+function paginationMove(pagina){
+    noFill();
+    //Verificamos la pagina a la que queremos ir
+    if(pagina === 2){
+        clearFrames();        
+        document.getElementById("frame2").style.display = "block" 
+        document.getElementById("btn2").classList.add("active");
+    }
+    else if(pagina === 1){
+        clearFrames();        
+        document.getElementById("frame1").style.display = "block" 
+        document.getElementById("btn1").classList.add("active");
+    }
+    else if(pagina === 3){
+        clearFrames();        
+        document.getElementById("frame3").style.display = "block" 
+        document.getElementById("btn3").classList.add("active");
+    }
+    else if(pagina === 4){
+        clearFrames();        
+        document.getElementById("frame4").style.display = "block" 
+        document.getElementById("btn4").classList.add("active");
+    }
+    else if(pagina === 5){
+        clearFrames();        
+        document.getElementById("frame5").style.display = "block" 
+        document.getElementById("btn5").classList.add("active");
+    }
+    else if(pagina === 6){
+        clearFrames();        
+        document.getElementById("frame6").style.display = "block" 
+        document.getElementById("btn6").classList.add("active");
+    }
+    else if(pagina === 7){
+        clearFrames();        
+        document.getElementById("frame7").style.display = "block" 
+        document.getElementById("btn7").classList.add("active");
+    }
+    else if(pagina === 8){
+        clearFrames();        
+        document.getElementById("frame8").style.display = "block" 
+        document.getElementById("btn8").classList.add("active");
+    }
+    else if(pagina === 9){
+        clearFrames();        
+        document.getElementById("frame9").style.display = "block" 
+        document.getElementById("btn9").classList.add("active");
+    }
+}
+
+
+//Quita la marca de seleccionado para todos los botones
+function noFill(){
+    document.getElementById("btn1").classList.remove("active");
+    document.getElementById("btn2").classList.remove("active");
+    document.getElementById("btn3").classList.remove("active");
+    document.getElementById("btn4").classList.remove("active");
+    document.getElementById("btn5").classList.remove("active");
+    document.getElementById("btn6").classList.remove("active");
+    document.getElementById("btn7").classList.remove("active");
+    document.getElementById("btn8").classList.remove("active");
+    document.getElementById("btn9").classList.remove("active");
+
+}
+
+//Oculta los frames para mostrar el nuevo
+function clearFrames(){
+    document.getElementById("frame1").style.display = "none";
+    document.getElementById("frame2").style.display = "none";
+    document.getElementById("frame3").style.display = "none";
+    document.getElementById("frame4").style.display = "none";
+    document.getElementById("frame5").style.display = "none";
+    document.getElementById("frame6").style.display = "none";
+    document.getElementById("frame7").style.display = "none";
+    document.getElementById("frame8").style.display = "none";
+    document.getElementById("frame9").style.display = "none";
+    
+}
