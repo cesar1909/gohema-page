@@ -159,8 +159,9 @@
                 <!-- <input type="text" id="search-doctor" class="form-control" placeholder="Buscar por Estado..." aria-label="Buscar por Estado..."> -->
                 <select name="citySelect" id="select1" onchange="findDoctor(this.value);">
                   <option selected disabled hidden value="0">Seleccione un estado de la República Mexicana...</option>
+                  <option value="all">Ver Todos</option>
                   <option value="cdmx">Ciudad de México</option>
-                  <option value="chiapas">Chiapas</option>
+                  <!-- <option value="chiapas">Chiapas</option> -->
                   <option value="chihuahua">Chihuahua</option>
                   <option value="bajacalifornia">Baja California</option>
                   <option value="jalisco">Jalisco</option>
@@ -185,11 +186,15 @@
     <section class="section bg-light">
       <div id="idContainer" class="container">
 
+      
+
+
+
 
 
         <div id="frame1">
-        <div class="row">
-          <div class="col-md-4 element-animate">
+        <div id="row1" class="row">
+          <div id="item1" class="col-md-4 element-animate">
             <div class="media d-block media-custom text-center">
               <div class="media-body">
                 <h3 class="mt-0 text-black">Dr. Adrián Alejandro Ceballos López</h3>
@@ -199,7 +204,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 element-animate">
+          <div id="item2" class="col-md-4 element-animate">
             <div class="media d-block media-custom text-center">
               <div class="media-body">
                 <h3 class="mt-0 text-black">Dr. Alberto Villalobos Prieto</h3>
@@ -208,7 +213,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 element-animate">
+          <div id="item3" class="col-md-4 element-animate">
             <div class="media d-block media-custom text-center">
               <div class="media-body">
                 <h3 class="mt-0 text-black">Dra. Alejandra Zarate Osorno</h3>
@@ -220,8 +225,8 @@
           </div>
         </div>
 
-        <div class="row mb-5">
-          <div class="col-md-4 element-animate">
+        <div id="row2" class="row mb-5">
+          <div id="item4" class="col-md-4 element-animate">
             <div class="media d-block media-custom text-center">
               <div class="media-body">
                 <h3 class="mt-0 text-black">Dr. Alfredo Arias Aranda</h3>
@@ -230,7 +235,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 element-animate">
+          <div id="item5" class="col-md-4 element-animate">
             <div class="media d-block media-custom text-center">
               <div class="media-body">
                 <h3 class="mt-0 text-black">Dra. Aline Guillermina Ramirez</h3>
@@ -239,7 +244,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 element-animate">
+          <div id="item6" class="col-md-4 element-animate">
             <div class="media d-block media-custom text-center">
               <div class="media-body">
                 <h3 class="mt-0 text-black">Dra. Alinka García Camacho</h3>
@@ -256,8 +261,8 @@
 
 
       <div id="frame2" style="display: none">
-          <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+          <div id="row3" class="row mb-5">
+              <div id="item7" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Jose Antonio de la Peña</h3>
@@ -267,7 +272,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item8" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Arturo Vega Ruíz</h3>
@@ -277,7 +282,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item9" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Iris Azucena Saavedra González</h3>
@@ -288,8 +293,8 @@
                   </div>
                 </div>
           </div>
-          <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+          <div id="row4" class="row mb-5">
+              <div id="item10" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Benjamín Batista Guizar</h3>
@@ -299,7 +304,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item11" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Brenda Acosta Maldonado</h3>
@@ -308,7 +313,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item12" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Carela Sandoval Villa</h3>
@@ -324,8 +329,8 @@
 
 
       <div id="frame3" style="display: none">
-          <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+          <div id="row5" class="row mb-5">
+              <div id="item13" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Eduardo Cervera Ceballos</h3>
@@ -334,7 +339,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item14" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Eduardo Edmundo Reynoso</h3>
@@ -344,7 +349,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item15" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Eduardo Lobato Mendizabal</h3>
@@ -355,8 +360,8 @@
                   </div>
                 </div>
           </div>
-          <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+          <div id="row6" class="row mb-5">
+              <div id="item16" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Enrique Gómez Morales</h3>
@@ -365,7 +370,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item17" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Enrique Rico Curiel</h3>
@@ -375,7 +380,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item18" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Federico Godínez Hernández</h3>
@@ -390,8 +395,8 @@
 
 
       <div id="frame4" style="display: none">
-          <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+          <div id="row7" class="row mb-5">
+              <div id="item19" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Fernando Perez Zincer</h3>
@@ -401,7 +406,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item20" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Gilberto Castañeda Hernández</h3>
@@ -411,7 +416,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item21" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Gregorio Campos Cabrera</h3>
@@ -422,8 +427,8 @@
                   </div>
                 </div>
           </div>
-          <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+          <div id="row8" class="row mb-5">
+              <div id="item22" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Gregorio Ignacio Ibarra</h3>
@@ -432,7 +437,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item23" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Hector Daniel Serur Villanueva</h3>
@@ -441,7 +446,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item24" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Helen Dayani Caballero Montes</h3>
@@ -455,8 +460,8 @@
       </div>
 
       <div id="frame5" style="display: none">
-          <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+          <div id="row9"class="row mb-5">
+              <div id="item25" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Jesus Emmanuel Medina Coral</h3>
@@ -466,7 +471,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item26" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Jorge Carlos Torres Flores</h3>
@@ -476,7 +481,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item27" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Jorge Duque Rodriguez</h3>
@@ -487,8 +492,8 @@
                   </div>
                 </div>
           </div>
-          <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+          <div id="row10" class="row mb-5">
+              <div id="item28" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Jorge Vela Ojeda</h3>
@@ -498,7 +503,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item29" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Jose Ramon Rivas Llamas</h3>
@@ -508,7 +513,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item30" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Jose Mario Hernandez Rodriguez</h3>
@@ -524,7 +529,7 @@
 
       <div id="frame6" style="display: none">
           <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+              <div id="item31" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Jose Salazar Pachicano</h3>
@@ -534,7 +539,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item32" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Karen Pérez Gómez</h3>
@@ -544,7 +549,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item33" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Karla Adrina Espinosa Bautista</h3>
@@ -556,7 +561,7 @@
                 </div>
           </div>
           <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+              <div id="item34" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Luis Martín Loarca Piña</h3>
@@ -566,7 +571,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item35" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Luis Antonio Meillon García</h3>
@@ -576,7 +581,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item36" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Luis Gilberto Silva Michel</h3>
@@ -593,7 +598,7 @@
 
       <div id="frame7" style="display: none">
           <div class="row mb-5">
-              <div class="col-md-5 element-animate">
+              <div id="item37" class="col-md-5 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Manuel Solano Genesta</h3>
@@ -603,7 +608,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3 element-animate">
+                <div id="item38" class="col-md-3 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Maria Margarita Contreras Serratos</h3>
@@ -613,7 +618,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item39" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Silvia Margarita Rodriguez Mejorada</h3>
@@ -625,7 +630,7 @@
                 </div>
           </div>
           <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+              <div id="item40" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Miguel Herrera</h3>
@@ -635,7 +640,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item41" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Nidia Paulina Zapata Canto</h3>
@@ -645,7 +650,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item42" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Óscar de Jesus Pérez Rámirez </h3>
@@ -662,7 +667,7 @@
 
       <div id="frame8" style="display: none">
           <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+              <div id="item43" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Pamela Báez Islas</h3>
@@ -672,7 +677,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item44" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Pedro de Jésus Sobrevilla Calvo</h3>
@@ -682,7 +687,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item45" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Ramiro Espinoza Zamora</h3>
@@ -693,7 +698,7 @@
                 </div>
           </div>
           <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+              <div id="item46" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. René Porfirio Amaton Tabares</h3>
@@ -703,7 +708,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item47" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Roberta Demichelis</h3>
@@ -713,7 +718,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item48" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Roberto Ovilla</h3>
@@ -731,7 +736,7 @@
 
       <div id="frame9" style="display: none">
           <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+              <div id="item49" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Rosa Elena Sosa Camas</h3>
@@ -741,7 +746,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item50" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Uendy Perez Lozano</h3>
@@ -751,7 +756,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item51" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Victor Salinas Rojas</h3>
@@ -763,7 +768,7 @@
                 </div>
           </div>
           <div class="row mb-5">
-              <div class="col-md-4 element-animate">
+              <div id="item52" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dr. Xochitl Cota Rangel</h3>
@@ -773,7 +778,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item53" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Yvette Neme</h3>
@@ -783,7 +788,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 element-animate">
+                <div id="item54" class="col-md-4 element-animate">
                   <div class="media d-block media-custom text-center">
                     <div class="media-body">
                       <h3 class="mt-0 text-black">Dra. Carmen Alaez Verson</h3>
@@ -836,7 +841,7 @@
 
 
 
-        <div class="row element-animate">
+        <div class="row">
           <div class="col-md-5">
             <nav aria-label="Page navigation example">
               <ul id="pagination-demo" class="pagination">
@@ -912,7 +917,7 @@
             </div>
           </div> -->
   
-          <div class="row pt-md-3 element-animate">
+          <div class="row pt-md-3">
             <div class="col-md-12">
               <hr class="border-t">
             </div>

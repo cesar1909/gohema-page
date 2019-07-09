@@ -1,3 +1,89 @@
+var doctor1;
+var doctor2;
+var doctor3;
+var doctor4;
+var doctor5;
+var doctor6;
+var doctor7;
+var doctor8;
+var doctor9;
+var doctor10;
+var doctor11;
+var doctor12;
+var doctor13;
+var doctor14;
+var doctor15;
+var doctor16;
+var doctor17;
+var doctor18;
+var doctor19;
+var doctor20;
+var doctor21;
+var doctor22;
+var doctor23;
+var doctor24;
+var doctor25;
+var doctor26;
+var doctor27;
+var doctor28;
+var doctor29;
+var doctor30;
+var chihuahua1;
+var chihuahua2;
+var chihuahua3;
+var chihuahua4;
+        
+
+        var doctor1c;
+        var doctor2c;
+        var doctor3c;
+        var doctor4c;
+        var doctor5c;
+        var doctor6c;
+        var doctor7c;
+        var doctor8c;
+        var doctor9c;
+        var doctor10c;
+        var doctor11c;
+        var doctor12c;
+        var doctor14c;
+        var doctor15c;
+        var doctor16c;
+        var doctor17c;
+        var doctor18c;
+        var doctor19c;
+        var doctor20c;
+        var doctor21c;
+        var doctor22c;
+        var doctor23c;
+        var doctor24c;
+        var doctor25c;
+        var doctor26c;
+        var doctor27c;
+        var doctor28c;
+        var doctor29c;
+        var doctor30c;
+        var chihuahua1c;
+        var chihuahua2c;
+        var chihuahua3c;
+        var chihuahua4c;
+        
+
+        var count = 0;
+        var count2 = 0;
+        var count3 = 0;
+        var count4 = 0;
+        var count5 = 0;
+        var count6 = 0;
+        var count7 = 0;
+        var count8 = 0;
+        var count9 = 0;
+        var count10 = 0;
+        var count11 = 0;
+        var count12 = 0;
+
+
+
 function MyFunction(estado){
     // alert(estado);
     if(estado === 1){
@@ -281,19 +367,260 @@ function celarDivMap(){
 }
 
 function findDoctor(city){
-    // var search = document.getElementById('search-doctor').value;
-    alert(city)
-    clearFrames();
-    noFill();
-    // paginationMove(1);
 
-    if(city === 'cdmx'){
+
+
+         doctor1 = document.getElementById("item2");
+         doctor2 = document.getElementById("item3");
+         doctor3 = document.getElementById("item4");
+         doctor4 = document.getElementById("item5");
+         doctor5 = document.getElementById("item6");
+         doctor6 = document.getElementById("item7");
+         doctor7 = document.getElementById("item9");
+         doctor8 = document.getElementById("item11");
+         doctor9 = document.getElementById("item13");
+         doctor10 = document.getElementById("item14");
+         doctor11 = document.getElementById("item16");
+         doctor12 = document.getElementById("item19");
+         doctor13 = document.getElementById("item20");
+         doctor14 = document.getElementById("item22");
+         doctor15 = document.getElementById("item26");
+         doctor16 = document.getElementById("item28");
+         doctor17 = document.getElementById("item33");
+         doctor18 = document.getElementById("item35");
+         doctor19 = document.getElementById("item36");
+         doctor20 = document.getElementById("item38");
+         doctor21 = document.getElementById("item41");
+         doctor22 = document.getElementById("item43");
+         doctor23 = document.getElementById("item44");
+         doctor24 = document.getElementById("item45");
+         doctor25 = document.getElementById("item47");
+         doctor26 = document.getElementById("item48");
+         doctor27 = document.getElementById("item51");
+         doctor28 = document.getElementById("item52");
+         doctor29 = document.getElementById("item53");
+         doctor30 = document.getElementById("item54");
+         chihuahua1 = document.getElementById("item10");
+         chihuahua2 = document.getElementById("item27");
+         chihuahua3 = document.getElementById("item32");
+         chihuahua4 = document.getElementById("item46");
+
+         doctor1c = doctor1.cloneNode(true);
+         doctor2c = doctor2.cloneNode(true);
+         doctor3c = doctor3.cloneNode(true);
+         doctor4c = doctor4.cloneNode(true);
+         doctor5c = doctor5.cloneNode(true);
+         doctor6c = doctor6.cloneNode(true);
+         doctor7c = doctor7.cloneNode(true);
+         doctor8c = doctor8.cloneNode(true);
+         doctor9c = doctor9.cloneNode(true);
+         doctor10c = doctor10.cloneNode(true);
+         doctor11c = doctor11.cloneNode(true);
+         doctor12c = doctor12.cloneNode(true);
+         doctor13c = doctor13.cloneNode(true);
+         doctor14c = doctor14.cloneNode(true);
+         doctor15c = doctor15.cloneNode(true);
+         doctor16c = doctor16.cloneNode(true);
+         doctor17c = doctor17.cloneNode(true);
+         doctor18c = doctor18.cloneNode(true);
+         doctor19c = doctor19.cloneNode(true);
+         doctor20c = doctor20.cloneNode(true);
+         doctor21c = doctor21.cloneNode(true);
+         doctor22c = doctor22.cloneNode(true);
+         doctor23c = doctor23.cloneNode(true);
+         doctor24c = doctor24.cloneNode(true);
+         doctor25c = doctor25.cloneNode(true);
+         doctor26c = doctor26.cloneNode(true);
+         doctor27c = doctor27.cloneNode(true);
+         doctor28c = doctor28.cloneNode(true);
+         doctor29c = doctor29.cloneNode(true);
+         doctor30c = doctor30.cloneNode(true);
+         chihuahua1c = chihuahua1.cloneNode(true);
+         chihuahua2c = chihuahua2.cloneNode(true);
+         chihuahua3c = chihuahua3.cloneNode(true);
+         chihuahua4c = chihuahua4.cloneNode(true);
+
+        doctor1c.id = "1";
+        doctor2c.id = "2";
+        doctor3c.id = "3";
+        doctor4c.id = "4";
+        doctor5c.id = "5";
+        doctor6c.id = "6";
+        doctor7c.id = "7";
+        doctor8c.id = "8";
+        doctor9c.id = "9";
+        doctor10c.id = "10";
+        doctor11c.id = "11";
+        doctor12c.id = "12";
+        doctor13c.id = "13";
+        doctor14c.id = "14";
+        doctor15c.id = "15";
+        doctor16c.id = "16";
+        doctor17c.id = "17";
+        doctor18c.id = "18";
+        doctor19c.id = "19";
+        doctor20c.id = "20";
+        doctor21c.id = "21";
+        doctor22c.id = "22";
+        doctor23c.id = "23";
+        doctor24c.id = "24";
+        doctor25c.id = "25";
+        doctor26c.id = "26";
+        doctor27c.id = "27";
+        doctor28c.id = "28";
+        doctor29c.id = "29";
+        doctor30c.id = "30";
+        chihuahua1c.id = "31";
+        chihuahua2c.id = "32";
+        chihuahua3c.id = "33";
+        chihuahua4c.id = "34";
         
-    }
-    else if(city === 'chiapas'){
+
+
+
+
+    // alert(city)
+    paginationMove(1);
+    if(city === 'cdmx'){
+        document.getElementById("btn6").style.display = "none";
+        document.getElementById("btn7").style.display = "none";
+        document.getElementById("btn8").style.display = "none";
+        document.getElementById("btn9").style.display = "none";
+
+        hideAllDoctors();
+
+        
+
+        
+        doctor1c.style.display = "block";
+        doctor2c.style.display = "block";
+        doctor3c.style.display = "block";
+        doctor4c.style.display = "block";
+        doctor5c.style.display = "block";
+        doctor6c.style.display = "block";
+        doctor7c.style.display = "block";
+        doctor8c.style.display = "block";
+        doctor9c.style.display = "block";
+        doctor10c.style.display = "block";
+        doctor11c.style.display = "block";
+        doctor12c.style.display = "block";
+        doctor13c.style.display = "block";
+        doctor14c.style.display = "block";
+        doctor15c.style.display = "block";
+        doctor16c.style.display = "block";
+        doctor17c.style.display = "block";
+        doctor18c.style.display = "block";
+        doctor19c.style.display = "block";
+        doctor20c.style.display = "block";
+        doctor21c.style.display = "block";
+        doctor22c.style.display = "block";
+        doctor23c.style.display = "block";
+        doctor24c.style.display = "block";
+        doctor25c.style.display = "block";
+        doctor26c.style.display = "block";
+        doctor27c.style.display = "block";
+        doctor28c.style.display = "block";
+        doctor29c.style.display = "block";
+        doctor30c.style.display = "block";
+
+        if(count === 0){
+            document.getElementById("row1").append(doctor1c);
+            document.getElementById("row1").append(doctor2c);
+            document.getElementById("row1").append(doctor3c);
+            document.getElementById("row2").append(doctor4c);
+            document.getElementById("row2").append(doctor5c);
+            document.getElementById("row2").append(doctor6c);
+            document.getElementById("row3").append(doctor7c);
+            document.getElementById("row3").append(doctor8c);
+            document.getElementById("row3").append(doctor9c);
+            document.getElementById("row4").append(doctor10c);
+            document.getElementById("row4").append(doctor11c);
+            document.getElementById("row4").append(doctor12c);
+            document.getElementById("row5").append(doctor13c);
+            document.getElementById("row5").append(doctor14c);
+            document.getElementById("row5").append(doctor15c);
+            document.getElementById("row6").append(doctor16c);
+            document.getElementById("row6").append(doctor17c);
+            document.getElementById("row6").append(doctor18c);
+            document.getElementById("row7").append(doctor19c);
+            document.getElementById("row7").append(doctor20c);
+            document.getElementById("row7").append(doctor21c);
+            document.getElementById("row8").append(doctor22c);
+            document.getElementById("row8").append(doctor23c);
+            document.getElementById("row8").append(doctor24c);
+            document.getElementById("row9").append(doctor25c);
+            document.getElementById("row9").append(doctor26c);
+            document.getElementById("row9").append(doctor27c);
+            document.getElementById("row10").append(doctor28c);
+            document.getElementById("row10").append(doctor29c);
+            document.getElementById("row10").append(doctor30c);
+            count++;
+        }
+        else{
+            document.getElementById("1").style.display = "block";
+            document.getElementById("2").style.display = "block";
+            document.getElementById("3").style.display = "block";
+            document.getElementById("4").style.display = "block";
+            document.getElementById("5").style.display = "block";
+            document.getElementById("6").style.display = "block";
+            document.getElementById("7").style.display = "block";
+            document.getElementById("8").style.display = "block";
+            document.getElementById("9").style.display = "block";
+            document.getElementById("10").style.display = "block";
+            document.getElementById("11").style.display = "block";
+            document.getElementById("12").style.display = "block";
+            document.getElementById("13").style.display = "block";
+            document.getElementById("14").style.display = "block";
+            document.getElementById("15").style.display = "block";
+            document.getElementById("16").style.display = "block";
+            document.getElementById("17").style.display = "block";
+            document.getElementById("18").style.display = "block";
+            document.getElementById("19").style.display = "block";
+            document.getElementById("20").style.display = "block";
+            document.getElementById("21").style.display = "block";
+            document.getElementById("22").style.display = "block";
+            document.getElementById("23").style.display = "block";
+            document.getElementById("24").style.display = "block";
+            document.getElementById("25").style.display = "block";
+            document.getElementById("26").style.display = "block";
+            document.getElementById("27").style.display = "block";
+            document.getElementById("28").style.display = "block";
+            document.getElementById("29").style.display = "block";
+            document.getElementById("30").style.display = "block";
+        }
+        
 
     }
     else if(city === 'chihuahua'){
+        alert(city)
+        document.getElementById("btn2").style.display = "none";
+        document.getElementById("btn3").style.display = "none";
+        document.getElementById("btn4").style.display = "none";
+        document.getElementById("btn5").style.display = "none";
+        document.getElementById("btn6").style.display = "none";
+        document.getElementById("btn7").style.display = "none";
+        document.getElementById("btn8").style.display = "none";
+        document.getElementById("btn9").style.display = "none";
+
+        hideAllDoctors();
+
+        chihuahua1c.style.display = "block";
+        chihuahua2c.style.display = "block";
+        chihuahua3c.style.display = "block";
+        chihuahua4c.style.display = "block";
+
+
+        if(count2 === 0){
+            document.getElementById("row1").append(chihuahua1c);
+            document.getElementById("row1").append(chihuahua2c);
+            document.getElementById("row1").append(chihuahua3c);
+            document.getElementById("row2").append(chihuahua4c);
+            count++;
+        }
+        else{
+
+        }
+
 
     }
     else if(city === 'bajacalifornia'){
@@ -326,15 +653,41 @@ function findDoctor(city){
     else if(city === 'yucatan'){
         
     }
-    else{
+    else if(city === 'all'){
+        clearFrames();
+        ocultarResultados();
+        showAllDoctors();
+        document.getElementById("btn1").style.display = "block";
+        document.getElementById("btn2").style.display = "block";
+        document.getElementById("btn3").style.display = "block";
+        document.getElementById("btn4").style.display = "block";
+        document.getElementById("btn5").style.display = "block";
+        document.getElementById("btn6").style.display = "block";
+        document.getElementById("btn7").style.display = "block";
+        document.getElementById("btn8").style.display = "block";
+        document.getElementById("btn9").style.display = "block";
+
+        document.getElementById("frame1").style.display = "block";
 
     }
 }
 
-function clearDoctorsList(){
-    var docotrsList = document.getElementById("idContainer")
-    docotrsList.innerHTML = "";
-}
+    function getAllFrames(){
+    document.getElementById("frame1").style.display = "block";
+    document.getElementById("frame2").style.display = "block";
+    document.getElementById("frame3").style.display = "block";
+    document.getElementById("frame4").style.display = "block";
+    document.getElementById("frame5").style.display = "block";
+    document.getElementById("frame6").style.display = "block";
+    document.getElementById("frame7").style.display = "block";
+    document.getElementById("frame8").style.display = "block";
+    document.getElementById("frame9").style.display = "block";
+    }
+
+// function clearDoctorsList(){
+//     var docotrsList = document.getElementById("idContainer")
+//     docotrsList.innerHTML = "";
+// }
 
 
 
@@ -441,4 +794,202 @@ function clearFrames(){
     document.getElementById("frame8").style.display = "none";
     document.getElementById("frame9").style.display = "none";
     
+}
+
+function showFrames(){
+    document.getElementById("frame1").style.display = "block";
+    document.getElementById("frame2").style.display = "block";
+    document.getElementById("frame3").style.display = "block";
+    document.getElementById("frame4").style.display = "block";
+    document.getElementById("frame5").style.display = "block";
+    document.getElementById("frame6").style.display = "block";
+    document.getElementById("frame7").style.display = "block";
+    document.getElementById("frame8").style.display = "block";
+    document.getElementById("frame9").style.display = "block";
+}
+
+function showAllDoctors(){
+    document.getElementById("item1").style.display = "block";
+    document.getElementById("item2").style.display = "block";
+    document.getElementById("item3").style.display = "block";
+    document.getElementById("item4").style.display = "block";
+    document.getElementById("item5").style.display = "block";
+    document.getElementById("item6").style.display = "block";
+    document.getElementById("item7").style.display = "block";
+    document.getElementById("item8").style.display = "block";
+    document.getElementById("item9").style.display = "block";
+    document.getElementById("item10").style.display = "block";
+    document.getElementById("item11").style.display = "block";
+    document.getElementById("item12").style.display = "block";
+    document.getElementById("item13").style.display = "block";
+    document.getElementById("item14").style.display = "block";
+    document.getElementById("item15").style.display = "block";
+    document.getElementById("item16").style.display = "block";
+    document.getElementById("item17").style.display = "block";
+    document.getElementById("item18").style.display = "block";
+    document.getElementById("item19").style.display = "block";
+    document.getElementById("item20").style.display = "block";
+    document.getElementById("item21").style.display = "block";
+    document.getElementById("item22").style.display = "block";
+    document.getElementById("item23").style.display = "block";
+    document.getElementById("item24").style.display = "block";
+    document.getElementById("item25").style.display = "block";
+    document.getElementById("item26").style.display = "block";
+    document.getElementById("item27").style.display = "block";
+    document.getElementById("item28").style.display = "block";
+    document.getElementById("item29").style.display = "block";
+    document.getElementById("item30").style.display = "block";
+    document.getElementById("item31").style.display = "block";
+    document.getElementById("item32").style.display = "block";
+    document.getElementById("item33").style.display = "block";
+    document.getElementById("item34").style.display = "block";
+    document.getElementById("item35").style.display = "block";
+    document.getElementById("item36").style.display = "block";
+    document.getElementById("item37").style.display = "block";
+    document.getElementById("item38").style.display = "block";
+    document.getElementById("item39").style.display = "block";
+    document.getElementById("item40").style.display = "block";
+    document.getElementById("item41").style.display = "block";
+    document.getElementById("item42").style.display = "block";
+    document.getElementById("item43").style.display = "block";
+    document.getElementById("item44").style.display = "block";
+    document.getElementById("item45").style.display = "block";
+    document.getElementById("item46").style.display = "block";
+    document.getElementById("item47").style.display = "block";
+    document.getElementById("item48").style.display = "block";
+    document.getElementById("item49").style.display = "block";
+    document.getElementById("item50").style.display = "block";
+    document.getElementById("item51").style.display = "block";
+    document.getElementById("item52").style.display = "block";
+    document.getElementById("item53").style.display = "block";
+    document.getElementById("item54").style.display = "block";
+    
+}
+
+function hideAllDoctors(){
+    document.getElementById("item1").style.display = "none";
+    document.getElementById("item2").style.display = "none";
+    document.getElementById("item3").style.display = "none";
+    document.getElementById("item4").style.display = "none";
+    document.getElementById("item5").style.display = "none";
+    document.getElementById("item6").style.display = "none";
+    document.getElementById("item7").style.display = "none";
+    document.getElementById("item8").style.display = "none";
+    document.getElementById("item9").style.display = "none";
+    document.getElementById("item10").style.display = "none";
+    document.getElementById("item11").style.display = "none";
+    document.getElementById("item12").style.display = "none";
+    document.getElementById("item13").style.display = "none";
+    document.getElementById("item14").style.display = "none";
+    document.getElementById("item15").style.display = "none";
+    document.getElementById("item16").style.display = "none";
+    document.getElementById("item17").style.display = "none";
+    document.getElementById("item18").style.display = "none";
+    document.getElementById("item19").style.display = "none";
+    document.getElementById("item20").style.display = "none";
+    document.getElementById("item21").style.display = "none";
+    document.getElementById("item22").style.display = "none";
+    document.getElementById("item23").style.display = "none";
+    document.getElementById("item24").style.display = "none";
+    document.getElementById("item25").style.display = "none";
+    document.getElementById("item26").style.display = "none";
+    document.getElementById("item27").style.display = "none";
+    document.getElementById("item28").style.display = "none";
+    document.getElementById("item29").style.display = "none";
+    document.getElementById("item30").style.display = "none";
+    document.getElementById("item31").style.display = "none";
+    document.getElementById("item32").style.display = "none";
+    document.getElementById("item33").style.display = "none";
+    document.getElementById("item34").style.display = "none";
+    document.getElementById("item35").style.display = "none";
+    document.getElementById("item36").style.display = "none";
+    document.getElementById("item37").style.display = "none";
+    document.getElementById("item38").style.display = "none";
+    document.getElementById("item39").style.display = "none";
+    document.getElementById("item40").style.display = "none";
+    document.getElementById("item41").style.display = "none";
+    document.getElementById("item42").style.display = "none";
+    document.getElementById("item43").style.display = "none";
+    document.getElementById("item44").style.display = "none";
+    document.getElementById("item45").style.display = "none";
+    document.getElementById("item46").style.display = "none";
+    document.getElementById("item47").style.display = "none";
+    document.getElementById("item48").style.display = "none";
+    document.getElementById("item49").style.display = "none";
+    document.getElementById("item50").style.display = "none";
+    document.getElementById("item51").style.display = "none";
+    document.getElementById("item52").style.display = "none";
+    document.getElementById("item53").style.display = "none";
+    document.getElementById("item54").style.display = "none";
+}
+
+function ocultarResultados(){
+    if(doctor1c =! null){
+
+        document.getElementById("1").style.display = "none";
+        document.getElementById("2").style.display = "none";
+        document.getElementById("3").style.display = "none";
+        document.getElementById("4").style.display = "none";
+        document.getElementById("5").style.display = "none";
+        document.getElementById("6").style.display = "none";
+        document.getElementById("7").style.display = "none";
+        document.getElementById("8").style.display = "none";
+        document.getElementById("9").style.display = "none";
+        document.getElementById("10").style.display = "none";
+        document.getElementById("11").style.display = "none";
+        document.getElementById("12").style.display = "none";
+        document.getElementById("13").style.display = "none";
+        document.getElementById("14").style.display = "none";
+        document.getElementById("15").style.display = "none";
+        document.getElementById("16").style.display = "none";
+        document.getElementById("17").style.display = "none";
+        document.getElementById("18").style.display = "none";
+        document.getElementById("19").style.display = "none";
+        document.getElementById("20").style.display = "none";
+        document.getElementById("21").style.display = "none";
+        document.getElementById("22").style.display = "none";
+        document.getElementById("23").style.display = "none";
+        document.getElementById("24").style.display = "none";
+        document.getElementById("25").style.display = "none";
+        document.getElementById("26").style.display = "none";
+        document.getElementById("27").style.display = "none";
+        document.getElementById("28").style.display = "none";
+        document.getElementById("29").style.display = "none";
+        document.getElementById("30").style.display = "none";
+
+        // doctor1c.style.display = "none";
+        // doctor2c.style.display = "none";
+        // doctor3c.style.display = "none";
+        // doctor4c.style.display = "none";
+        // doctor5c.style.display = "none";
+        // doctor6c.style.display = "none";
+        // doctor7c.style.display = "none";
+        // doctor8c.style.display = "none";
+        // doctor9c.style.display = "none";
+        // doctor10c.style.display = "none";
+        // doctor11c.style.display = "none";
+        // doctor12c.style.display = "none";
+        // doctor13c.style.display = "none";
+        // doctor14c.style.display = "none";
+        // doctor15c.style.display = "none";
+        // doctor16c.style.display = "none";
+        // doctor17c.style.display = "none";
+        // doctor18c.style.display = "none";
+        // doctor19c.style.display = "none";
+        // doctor20c.style.display = "none";
+        // doctor21c.style.display = "none";
+        // doctor22c.style.display = "none";
+        // doctor23c.style.display = "none";
+        // doctor24c.style.display = "none";
+        // doctor25c.style.display = "none";
+        // doctor26c.style.display = "none";
+        // doctor27c.style.display = "none";
+        // doctor28c.style.display = "none";
+        // doctor29c.style.display = "none";
+        // doctor30c.style.display = "none";
+    }
+    else{
+        alert("Elemento nulo")
+    }
+        
 }
