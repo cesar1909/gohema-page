@@ -158,12 +158,12 @@ function MyFunction(estado){
     else if(estado === 18){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '';
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=nucleo%20especialidades%20oncologicas&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div>';
     }
     else if(estado === 19){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=torre%20medica%20dalinde&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '';
         }
     else if(estado === 20){
         celarDivMap();
