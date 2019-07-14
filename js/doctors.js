@@ -67,6 +67,7 @@ var doctor30;
 
 
 function MyFunction(estado){
+    alert(estado);
     var mapSection = document.getElementById("paginationSection");
     mapSection.scrollIntoView();
     // alert(estado);
@@ -78,7 +79,7 @@ function MyFunction(estado){
     else if(estado === 2){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '';
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=abc%20observatorio%20hospital&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
         }
     else if(estado === 3){
         celarDivMap();
@@ -153,7 +154,7 @@ function MyFunction(estado){
     else if(estado === 17){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = ''
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=abc%20observatorio%20hospital&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>'
         }
     else if(estado === 18){
         celarDivMap();
@@ -163,22 +164,22 @@ function MyFunction(estado){
     else if(estado === 19){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '';
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=agua%20caliente%20tijuana1844&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
         }
     else if(estado === 20){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=transplantes%20la%20raza&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=angeles%20interlomas&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div>      </div>        ';
     }
     else if(estado === 21){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=oncologico%20sigo%20xxi&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=cinvestav%203c&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
     }
     else if(estado === 22){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=abc%20campus%20observatorio&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=virrey%20de%20mendoza%201998&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
         }
     else if(estado === 23){
         celarDivMap();
@@ -188,157 +189,157 @@ function MyFunction(estado){
     else if(estado === 24){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=torre%20medica%20dalinde&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=duque%20de%20rivas%20179&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
         }
     else if(estado === 25){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=transplantes%20la%20raza&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20angeles%20culiacan&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
     }
     else if(estado === 26){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=oncologico%20sigo%20xxi&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=anaya%201905%20culiacan&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
     }
     else if(estado === 27){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=abc%20campus%20observatorio&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=isste%20zona%20norte&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
         }
     else if(estado === 28){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20espa%C3%B1ol&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=clinica%20del%20centro%20chihuahua&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>'
     }
     else if(estado === 29){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=torre%20medica%20dalinde&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=imss%20la%20raza&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div>;
         }
     else if(estado === 30){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=transplantes%20la%20raza&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=mariano%20escobedo%20339%20culiacan&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>';
     }
     else if(estado === 31){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=oncologico%20sigo%20xxi&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20san%20jose%20el%20jacal&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div>';
     }
     else if(estado === 32){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=abc%20campus%20observatorio&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20angeles%20brocratas&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div>';
         }
     else if(estado === 33){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20espa%C3%B1ol&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20star%20medica%20chihuaha&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div>';
     }
     else if(estado === 34){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=torre%20medica%20dalinde&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=abc%20observatorio%20hospital&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>'
         }
     else if(estado === 35){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=transplantes%20la%20raza&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20angeles%20queretaro&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div>';
     }
     else if(estado === 36){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=oncologico%20sigo%20xxi&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=abc%20observatorio%20hospital&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
     }
     else if(estado === 37){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=abc%20campus%20observatorio&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=angeles%20interlomas&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div>      </div>'
         }
     else if(estado === 38){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20espa%C3%B1ol&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=lopez%20mateos%201401%20guadalajara&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div>'
     }
     else if(estado === 39){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=torre%20medica%20dalinde&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=san%20angel%20inn%20universidad&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div>';
         }
     else if(estado === 40){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=transplantes%20la%20raza&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=clinica%20merida&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
     }
     else if(estado === 41){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=oncologico%20sigo%20xxi&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20lomas%20san%20luis&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
     }
     else if(estado === 42){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=abc%20campus%20observatorio&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=medica%20sur%20tlalpan&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div>';
         }
     else if(estado === 43){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20espa%C3%B1ol&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=venustiano%20carranza%201138%20san%20luis&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
     }
     else if(estado === 44){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=torre%20medica%20dalinde&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=angeles%20interlomas&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div></div> ';
         }
     else if(estado === 45){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=transplantes%20la%20raza&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20angeles%20pedregal&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
     }
     else if(estado === 46){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=oncologico%20sigo%20xxi&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=instituto%20nacional%20de%20cancerologia&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
     }
     else if(estado === 47){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=abc%20campus%20observatorio&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20star%20medica%20ciudad%20juarez&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
         }
     else if(estado === 48){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20espa%C3%B1ol&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=angeles%20interlomas&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div></div>';
     }
     else if(estado === 49){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=torre%20medica%20dalinde&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=angeles%20interlomas&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div></div>';
         }
     else if(estado === 50){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=transplantes%20la%20raza&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=%20hospital%20san%20jose%20hermosillo&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
     }
     else if(estado === 51){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=oncologico%20sigo%20xxi&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20puebla%20ramblas&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
     }
     else if(estado === 52){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=torre%20medica%20dalinde&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20espa%C3%B1ol&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div>';
         }
     else if(estado === 53){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=transplantes%20la%20raza&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1022" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=angeles%20interlomas&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net">enable-javascript.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1022px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1022px;}</style></div></div>';
     }
     else if(estado === 54){
         celarDivMap();
         var newMapDiv = document.getElementById("newMapDiv");
-        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=oncologico%20sigo%20xxi&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+        newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=abc%20observatorio%20hospital&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.bitgeeks.net/embed-google-map/">how to embed location on google map</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
     }
     else{
         alert('Fuera de rango')
