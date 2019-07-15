@@ -184,7 +184,7 @@ var doctor30;
             else if(estado === 22){
                 celarDivMap();
                 var newMapDiv = document.getElementById("newMapDiv");
-                newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="974" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20espa%C3%B1ol&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://ultimatewp.net">ultimate wp</a></div><style>.mapouter{position:relative;text-align:right;height:400px;width:974px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:974px;}</style></div>'
+                newMapDiv.innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15053.583491231504!2d-99.16702293337401!3d19.395294261156778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1730dc0d6617e89!2sIMSS+Hospital+General+Regional+1+Dr.+Carlos+Mac+Gregor+Sanchez+Navarro!5e0!3m2!1ses-419!2smx!4v1563200914719!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>';
             }
             else if(estado === 23){
                 celarDivMap();
