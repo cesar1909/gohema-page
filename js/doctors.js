@@ -67,7 +67,7 @@ var doctor30;
 
 
         function MyFunction(estado){
-            alert(estado);
+            // alert(estado);
             var mapSection = document.getElementById("paginationSection");
             mapSection.scrollIntoView();
             // alert(estado);
