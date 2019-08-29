@@ -229,7 +229,7 @@ var doctor30;
             else if(estado === 31){
                 celarDivMap();
                 var newMapDiv = document.getElementById("newMapDiv");
-                newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20angeles%20antoio%20aguilar&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/"></a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
+                newMapDiv.innerHTML = '<div class="mapouter"><div class="gmap_canvas"><iframe width="1020" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=hospital%20angeles%20antonio%20aguilar&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Pure Black GmbH<br>Graslitzer Str. 6<br>84478 Waldkraiburg<br>Tel. 08638 6964680<br>www.pureblack.de</div><style>.mapouter{position:relative;text-align:right;height:500px;width:1020px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1020px;}</style></div>';
                 }
             else if(estado === 32){
                 celarDivMap();
